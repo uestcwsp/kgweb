@@ -1,0 +1,228 @@
+body
+{
+    line-height: 1em;
+
+    width: 100%;
+    min-width: 1024px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    background-color: #f3f3f3;
+
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility !important;
+}
+
+.disable-selection
+{
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+
+     -khtml-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.lato
+{
+    font-family: 'lato', sans-serif;
+}
+
+/* 2. HEADER */
+
+#header
+{
+    position: fixed;
+    z-index: 9999;
+
+    box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 1024px;
+    height: 120px;
+    padding-top: 90px;
+    padding-right: 20px;
+    padding-left: 40px;
+
+    background-color: rgba(35, 38, 46, .97);
+}
+
+#h-rpi-logo
+{
+    position: absolute;
+    top: 25px;
+    right: 30px;
+
+    display: block;
+
+    width: 120px;
+    height: 23px;
+
+    opacity: .8;
+    background-image: url(../image/lgplogom_400.png);
+    background-repeat: round;
+    background-size: 120px 23px;
+}
+
+#h-title
+{
+    font-family: 'futura-pt', futura, Futura, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+
+    position: absolute;
+    top: 40px;
+    left: 30px;
+
+    display: block;
+
+    box-sizing: border-box;
+    width: 120px;
+    height: 20px;
+
+    white-space: nowrap;
+    letter-spacing: .3em;
+
+    color: #eee;
+}
+
+#h-title-logo
+{
+    display: inline-block;
+
+    width: 30px;
+    height: 30px;
+    margin-right: .2em;
+
+    vertical-align: -3px;
+
+    background-image: url(../image/logo_40x40.png);
+    background-repeat: round;
+    background-size: 30px 30px;
+}
+
+#h-description
+{
+    font-size: 14px;
+    font-weight: 500;
+
+    position: absolute;
+    top: 65px;
+    left: 30px;
+
+    display: block;
+
+    box-sizing: border-box;
+    width: 240px;
+    height: 20px;
+    margin-right: 50px;
+
+    white-space: nowrap;
+
+    color: #888;
+}
+
+nav
+{
+    position: absolute;
+    right: 80px;
+    bottom: 0;
+
+    display: block;
+
+    padding-bottom: 12px;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+
+     -khtml-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+nav > a
+{
+    font-size: 14px;
+    font-weight: 600;
+
+    margin: 0;
+    padding: 20px 12px 7px 12px;
+
+    transition: color .1s ease-in-out;
+    text-decoration: none;
+
+    color: #ccc;
+}
+
+nav > a:hover
+{
+    color: #b1d100;
+}
+
+nav > a[current='true']
+{
+    cursor: default;
+
+    color: #b1d100;
+    border-bottom: 2px solid #b1d100;
+}
+
+/* SECTION */
+#m-section
+{
+    font-size: 14px;
+    font-weight: 100;
+
+    position: fixed;
+
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+div#footer
+{
+    position: relative;
+    z-index: 100;
+
+    display: none;
+
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-align: center;
+
+    background-color: rgba(237, 237, 237, .95);
+}
+
+div#f-title
+{
+    font-family: 'futura-pt', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+
+    margin-bottom: 3px;
+
+    letter-spacing: .3em;
+}
+
+div#f-description > p
+{
+    font-family: lato, sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+
+    margin: 3px;
+
+    color: #666;
+}
+
+div#f-addition
+{
+    font-size: 12px;
+    font-weight: 100;
+
+    color: #777;
+}

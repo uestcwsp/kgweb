@@ -1,0 +1,60 @@
+.menu li:nth-child(5){
+    background-color: #e8e8e8;
+}
+.menu ul li:nth-child(5) i.topline{
+    width: 100%;
+    opacity: 1;
+}
+.item{display:inline-table; width: 100%; height: auto; padding:15px; font-size: 14px; color: #333;background-color: #FFF;
+  border-top: 1px solid #dcdcdc;}
+.item .title{width: 10%; float: left;}
+.item .list{width: 90%; float: left;}
+.item .arow{width: 100%;}
+.arow .text, .arow .opera{float: left;}
+.arow .text{width: 70%;}
+.arow .text p{color: #999;}
+.arow .opera{width: 15%; text-align: right;}
+.arow .opera a{color: #333;}
+.arow .opera a:hover{color:#4284f5;text-decoration: none;}
+.lavender{background-color: lavender;}
+.sandyBrown{background-color: SandyBrown;}
+.lightBlue{background-color: lightblue;}
+.lightGreen{background-color: lightgreen;}
+.lightYellow{background-color: lightgoldenrodyellow;}
+.lightPink{background-color: lightpink;}
+.whiteSmoke{background-color: whitesmoke;}
+.opera-right{text-align:right;}
+.opera-right a{color: #333;}
+.per-info .modal-content{width: 720px;}
+.per-info .modal-body{font-size: 14px; overflow-y: auto;}
+.per-info .modal-body .form-group{ margin-bottom: 12px; min-height: 60px;}
+.modal-body .form-group.area{padding:0 15px;}
+.form-group.area .col-lg-8{padding: 0;}
+.col-radio{padding-left: 30px; text-align: left;}
+.col-radio .radio{display: inline-block; margin-right: 15px;}
+.error-span{color: red; font-weight: 400;}
+.remark{text-align: center;}
+.text-left{text-align: left;float: left;}
+.itemTable{display:inline-table; width: 100%; height: auto; padding:15px; font-size: 14px; color: #333;background-color: #FFF;
+  border-top: 1px solid #dcdcdc;}
+.itemTable .listTable{width: 70%;margin:0 auto;}
+h4{text-align: left;}
+table
+  {
+  border-collapse:collapse;
+  border:1px solid black;
+  width:100%;
+  }
+
+td
+  {
+  border:1px solid black;
+  text-align: center;
+  width:20px;
+  }
+  th
+  {
+  border:1px solid black;
+  text-align: center;
+  width:20px;
+  }
